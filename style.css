@@ -1,3 +1,78 @@
-.h1 {
-    font-family: 'Dosis', sans-serif;
+body{
+    background-image: url("images/background-image.jpg");
+    background-size: cover;
+    padding-top: 24px;
 }
+
+h1 {
+    padding-top: 8px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+h2 {
+    padding-top: 8px;
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    font-size: 24px;
+}
+
+.medium{
+    padding-top: 8px;
+}
+
+.small {
+    padding-bottom: 8px;
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.content{
+    margin-left: 16%;
+    margin-right: 16%;
+    width: 66%;
+    background-color: #ffffff;
+    opacity: 70%;
+}
+
+.video-container{
+    margin-left: 16%;
+    margin-right: 16%;
+    width: 66%;
+    background-color: #ffffff;
+    opacity: 100%;
+}
+
+.embed-wrapper {
+    overflow: hidden;
+    padding-top: 56.25%;
+    position: relative;
+}
+.embed-wrapper iframe {
+     border: 0;
+     height: 100%;
+     left: 0;
+     position: absolute;
+     top: 0;
+     width: 100%;
+}
+
+.gif{
+    margin-left: 16%;
+    margin-right: 16%;
+    width:66%;
+    height:auto;
+    opacity:100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .content{
+        margin-left:5%;
+        width:90%
+    }
+  }
